@@ -75,7 +75,7 @@ Correct:
 Incorrect:
 
 [php]
-&lt;?php if ( ! have_posts() ) : ?&gt;
+&lt;? if ( ! have_posts() ) : ?&gt;
 &lt;div id="post-0" class="post error404 not-found"&gt;
 &lt;h1 class="entry-title"&gt;Not Found&lt;/h1&gt;
 &lt;div class="entry-content"&gt;
@@ -83,7 +83,7 @@ Incorrect:
 &lt;?php get_search_form(); ?&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;?php endif; ?&gt;
+&lt;? endif; ?&gt;
 [/php]
 
 ## Credits
